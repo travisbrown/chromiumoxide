@@ -3,7 +3,6 @@
 //! All regexp's are copied from pdl.py in the chromium source tree.
 use crate::pdl::dep::is_circular_dep;
 use crate::pdl::*;
-use std::borrow::Cow;
 use std::fmt;
 
 /// Helper macro to create `&'static Regex`

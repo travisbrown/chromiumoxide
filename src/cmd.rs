@@ -1,5 +1,4 @@
 use std::collections::VecDeque;
-use std::iter::FromIterator;
 use std::time::{Duration, Instant};
 
 use futures::channel::oneshot::Sender as OneshotSender;
