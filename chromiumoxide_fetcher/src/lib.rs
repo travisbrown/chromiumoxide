@@ -4,7 +4,7 @@ pub use self::platform::Platform;
 pub use self::revision::Revision;
 
 /// Currently downloaded chromium revision
-pub const CURRENT_REVISION: Revision = Revision(1045629);
+pub const CURRENT_REVISION: Revision = Revision(1262506);
 
 mod browser;
 mod error;

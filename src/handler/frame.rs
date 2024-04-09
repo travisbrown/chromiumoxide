@@ -480,7 +480,7 @@ impl FrameManager {
 
     /// Issued when execution context is destroyed
     pub fn on_frame_execution_context_destroyed(&mut self, event: &EventExecutionContextDestroyed) {
-        if let Some(id) = self.context_ids.remove(&event.execution_context_id) {
+        if let Some(id) = self.context_ids.remove(&event.execution_unique_id) {
             if let Some(frame) = self.frames.get_mut(&id) {
                 frame.destroy_context(event.execution_context_id);
             }

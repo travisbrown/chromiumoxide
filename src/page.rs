@@ -84,6 +84,7 @@ impl Page {
             source: "window.chrome = { runtime: {} };".to_string(),
             world_name: None,
             include_command_line_api: None,
+            run_immediately: None,
         })
         .await?;
         Ok(())
@@ -110,6 +111,7 @@ impl Page {
                 .to_string(),
                 world_name: None,
                 include_command_line_api: None,
+            run_immediately: None,
             })
             .await?;
         Ok(())
@@ -134,6 +136,7 @@ impl Page {
             .to_string(),
             world_name: None,
             include_command_line_api: None,
+            run_immediately: None,
         })
         .await?;
         Ok(())
@@ -153,6 +156,7 @@ impl Page {
             .to_string(),
             world_name: None,
             include_command_line_api: None,
+            run_immediately: None,
         })
         .await?;
         Ok(())
@@ -171,6 +175,7 @@ impl Page {
             .to_string(),
             world_name: None,
             include_command_line_api: None,
+            run_immediately: None,
         })
         .await?;
         Ok(())

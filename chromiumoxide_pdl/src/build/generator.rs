@@ -1014,6 +1014,7 @@ pub(crate) fn generate_type_name(name: &str) -> String {
         "type" => "r#type".to_string(),
         "mod" => "r#mod".to_string(),
         "override" => "r#override".to_string(),
+        "self" => "r#self".to_string(),
         _ => name,
     }
 }
